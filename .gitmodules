@@ -1,0 +1,6 @@
+[submodule "backend"]
+	path = backend
+	url = ./backend
+[submodule "synth-frontend"]
+	path = synth-frontend
+	url = ./synth-frontend
