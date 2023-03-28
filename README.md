@@ -10,7 +10,11 @@ Synth is a web application that allows you to stream audio and find new tracks. 
 
 ## Set up
 
-The root project contains the backend and frontend codebase for Synth.
+The root project contains the backend and frontend codebase for Synth. After cloning the main repo run the below command on the root of the project to clone the submodules.
+
+```
+git submodule update --init
+```
 
 ### Backend
 
