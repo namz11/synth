@@ -1,6 +1,6 @@
 [submodule "backend"]
 	path = backend
-	url = ./backend
+	url = https://github.com/namz11/synth-backend.git
 [submodule "synth-frontend"]
 	path = synth-frontend
-	url = ./synth-frontend
+	url = https://github.com/namz11/synth-frontend.git
