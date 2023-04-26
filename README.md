@@ -26,7 +26,7 @@ From the root of the project, navigate to /backend & run the below scripts -
 npm install
 ```
 
-2. Run the server
+2. Run the server. This will run the server on [http://localhost:8888/](http://localhost:8888/)
 
 ```
 npm start or npm run devStart
@@ -42,11 +42,25 @@ From the root of the project, navigate to /synth-frontend & run the below script
 npm install
 ```
 
-2. Run the client
+2. Run the client. This will run the client on [http://localhost:3000/](http://localhost:3000/)
 
 ```
 npm run dev
 ```
+
+## Production Builds
+
+We have setup the following domains for our backend & frontend code using Vercel. They communicate with each other.
+
+Main Website - [https://synth-music.vercel.app/](https://synth-music.vercel.app/)
+Backend - [https://synth-backend.vercel.app/api/](https://synth-backend.vercel.app/api/)
+
+## Staging Builds
+
+We have setup the following staging environment for our backend & frontend code using Vercel to test our code.
+
+Main Website - [https://synth-frontend-git-dev-namz11.vercel.app/](https://synth-frontend-git-dev-namz11.vercel.app/)
+Backend - [https://synth-backend-git-dev-namz11.vercel.app/](https://synth-backend-git-dev-namz11.vercel.app/)
 
 ## Contributors
 
