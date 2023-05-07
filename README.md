@@ -62,6 +62,10 @@ We have setup the following staging environment for our backend & frontend code 
 Main Website - [https://synth-frontend-git-dev-namz11.vercel.app/](https://synth-frontend-git-dev-namz11.vercel.app/)
 Backend - [https://synth-backend-git-dev-namz11.vercel.app/](https://synth-backend-git-dev-namz11.vercel.app/)
 
+## Limitations
+
+We are using the spotify api which limits the number of devices playing music simultaneously to only one. So irrespective of the user logged in at a time only one person can play music on one device.
+
 ## Contributors
 
 We are the Bug Squashers.
