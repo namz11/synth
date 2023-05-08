@@ -7,6 +7,12 @@ Synth is a web application that allows you to stream audio and find new tracks. 
 ## Github Repo
 
 [https://github.com/namz11/synth](https://github.com/namz11/synth)
+<br/>
+This is the main repo which holds the entire codebase. It has 2 github submodule repos for the backend and frontend code.
+<br/>
+Backend-[https://github.com/namz11/synth-backend](https://github.com/namz11/synth-backend)
+<br/>
+Frontend-[https://github.com/namz11/synth-frontend](https://github.com/namz11/synth-frontend)
 
 ## Set up
 
@@ -50,21 +56,35 @@ npm run dev
 
 ## Production Builds
 
-We have setup the following domains for our backend & frontend code using Vercel. They communicate with each other.
+We have setup the following domains for our backend & frontend code using Vercel. They communicate with each other. Both prod builds are created of 'master' branches of the respective submodule repos mentioned above.
 
 Main Website - [https://synth-music.vercel.app/](https://synth-music.vercel.app/)
+<br/>
 Backend - [https://synth-backend.vercel.app/api/](https://synth-backend.vercel.app/api/)
+
+All our prod build use the below redis cloud credentials.
+<br/>
+DB alias - redis-13481.c281.us-east-1-2.ec2.cloud.redislabs.com:13481
+<br/>
+username - default
+<br/>
+password - UcmL3LN30VRZ2LMZJKXngs9akGf57C2f
 
 ## Staging Builds
 
-We have setup the following staging environment for our backend & frontend code using Vercel to test our code.
+We have setup the following staging environment for our backend & frontend code using Vercel to test our code. Both staging builds are created of 'dev' branches ONLY.
 
 Main Website - [https://synth-frontend-git-dev-namz11.vercel.app/](https://synth-frontend-git-dev-namz11.vercel.app/)
+<br/>
 Backend - [https://synth-backend-git-dev-namz11.vercel.app/](https://synth-backend-git-dev-namz11.vercel.app/)
 
 ## Limitations
 
 We are using the spotify api which limits the number of devices playing music simultaneously to only one. So irrespective of the user logged in at a time only one person can play music on one device.
+
+## Grading
+
+We have given firebase access to the email id - fappolonia@gmail.com
 
 ## Contributors
 
