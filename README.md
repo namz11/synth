@@ -54,6 +54,16 @@ npm install
 npm run dev
 ```
 
+## Database
+
+We are using Firebase products - Firestore & Cloud Storage. We have given firebase access to the email id - fappolonia@gmail.com. The link to our firebase console - [https://console.firebase.google.com/u/0/project/synth-6f232/overview](https://console.firebase.google.com/u/0/project/synth-6f232/overview)
+<br />
+We have created user with following credentials for you to test.
+
+- wafek87099@glumark.com - Admin@123
+- tekixib833@dekaps.com - Admin@123
+- nexeley426@glumark.com - Admin@123
+
 ## Production Builds
 
 We have setup the following domains for our backend & frontend code using Vercel. They communicate with each other. Both prod builds are created of 'master' branches of the respective submodule repos mentioned above.
@@ -66,9 +76,9 @@ All our prod build use the below redis cloud credentials.
 <br/>
 DB alias - redis-13481.c281.us-east-1-2.ec2.cloud.redislabs.com:13481
 <br/>
-username - default
+Username - default
 <br/>
-password - UcmL3LN30VRZ2LMZJKXngs9akGf57C2f
+Password - UcmL3LN30VRZ2LMZJKXngs9akGf57C2f
 
 ## Staging Builds
 
@@ -81,10 +91,8 @@ Backend - [https://synth-backend-git-dev-namz11.vercel.app/](https://synth-backe
 ## Limitations
 
 We are using the spotify api which limits the number of devices playing music simultaneously to only one. So irrespective of the user logged in at a time only one person can play music on one device.
-
-## Grading
-
-We have given firebase access to the email id - fappolonia@gmail.com
+<br/>
+The datepicker gives some tota11y issues.
 
 ## Contributors
 
